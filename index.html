@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="toastr.css" rel="stylesheet"/>
+    <title>Formulário de Cadastro</title>
+  </head>
+  <body>
+    <div class="container">  
+    <form class="border rounded p-4 mt-5 container" id="form">
+        <div class="row">
+            <div class="form-group col-sm">
+                <label for="nome">Nome Completo</label>
+                <input data-rule-required="true" data-msg-required="Campo obrigatório." name="nome" type="text" class="form-control" id="nome" placeholder="Nome Completo">
+            </div>
+            <div class="form-group col-sm">
+                <label for="exampleFormControlInput1">E-mail</label>
+                <input data-rule-required="true" data-msg-required="Campo obrigatório." name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-sm">
+                <label for="celular">Celular</label>
+                <input data-rule-required="true" data-msg-required="Campo obrigatório." name="celular" type="text" class="form-control" id="celular">
+            </div>
+            <div class="form-group col-sm">
+                <label for="nascimento">Data de Nascimento</label>
+                <input data-rule-required="true" data-msg-required="Campo obrigatório." name="nascimento" type="text" class="form-control" id="nascimento">
+            </div>
+            <div class="form-group col-sm">
+                <label for="cpf">CPF</label>
+                <input data-rule-required="true" data-msg-required="Campo obrigatório." name="cpf" type="text" class="form-control" id="cpf">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="bio">Descrição(Bio)</label>
+            <textarea data-rule-required="true" data-msg-required="Campo obrigatório." name="bio" class="form-control" id="bio" rows="3"></textarea>
+        </div>
+        <div class="row">
+            <div class="form-group col-sm-2">
+                <label for="cep">CEP</label>
+                <input data-rule-required="true" data-msg-required="Campo obrigatório." name="cep" type="text" class="form-control" id="cep">
+            </div>
+            <div class="form-group col-sm-8">
+                <label for="logradouro">Logradouro</label>
+                <input name="logradouro" type="text" class="form-control" id="logradouro">
+            </div>
+            <div class="form-group col-sm-2">
+                <label for="numero">Número</label>
+                <input data-rule-required="true" data-msg-required="Campo obrigatório." name="numero" type="text" class="form-control" id="numero">
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-sm">
+                <label for="complemento">Completo</label>
+                <input name="complemento" type="text" class="form-control" id="complemento">
+            </div>
+            <div class="form-group col-sm">
+                <label for="bairro">Bairro</label>
+                <input name="bairro" type="text" class="form-control" id="bairro">
+            </div>
+            <div class="form-group col-sm">
+                <label for="cidade">Cidade</label>
+                <input name="cidade" type="text" class="form-control" id="cidade">
+            </div>
+            <div class="form-group col-sm" col-sm>
+                <label for="UF">UF</label>
+                <input name="uf" type="text" class="form-control" id="uf">
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary enviar">Cadastrar</button>
+      </form>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/additional-methods.min.js"></script>
+    <script src="toastr.js"></script>
+    <script src="script.js"></script>
+    </body>
+</html>
