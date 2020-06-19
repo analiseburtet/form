@@ -8,7 +8,7 @@ Cadastre usuários com essa UI baseada em Bootstrap e valide os inputs com os pl
 - [Jquery](https://jquery.com/) 
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) :nail_care:
 
-## Jquery pLugins
+## Jquery plugins
 
 - [Jquery Mask](https://igorescobar.github.io/jQuery-Mask-Plugin/) :heavy_check_mark:
 - [Jquery Validation](https://jqueryvalidation.org/) :heavy_check_mark:
